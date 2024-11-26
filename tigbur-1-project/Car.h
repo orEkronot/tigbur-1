@@ -6,7 +6,7 @@
 class Car {
 private:
     // TODO: Add private fields:
- 
+
 
 public:
     // TODO: Implement constructor that initializes all fields

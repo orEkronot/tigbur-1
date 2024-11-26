@@ -16,6 +16,7 @@ double Car::getPrice() const { return this->_price; }
 CarColor Car::getCarColor() const { return this->_carColor; }
 std::string Car::getModel() const { return this->_model; }
 std::string Car::getCompany() const { return this->_company; }
+int Car::getTotalCars(){ return totalCars; }
 
 
 //set

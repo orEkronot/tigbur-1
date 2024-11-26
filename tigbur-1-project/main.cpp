@@ -10,7 +10,7 @@ int main()
     Car c1("Tomer", 100, Color::PINK, "Prious", "Toyota");
     Car c2("Lior", 200, Color::BLUE, "Ibiza", "Seat");
 
-    std::cout << Car::totalCars << std::endl;
+    std::cout << "Total Cars Number: " << Car::getTotalCars() << std::endl;
 
 
     CarList cl;

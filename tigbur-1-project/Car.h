@@ -13,9 +13,14 @@ private:
     std::string _model;
     std::string _company;
 
+    // BONUS: Add static totalCars counter
+    // Initialize to 0, increment in constructor
+    // Add getter method
+    static int totalCars;
 
 public: 
-    static int totalCars;
+
+
 
     // TODO: Implement constructor that initializes all fields
     Car(const std::string& owner, const double& price, const CarColor& color, const std::string& model, const std::string& company);
@@ -29,6 +34,7 @@ public:
     CarColor getCarColor() const;
     std::string getModel() const;
     std::string getCompany() const;
+    static int getTotalCars();
 
     // setters
     void setOwner(const std::string& newOwner);
@@ -37,11 +43,8 @@ public:
     void setModel(const std::string& newModel);
     void setCompany(const std::string& newCompany);
 
-
-
     // TODO: Implement print() const - should print in format
     void print() const;
-
 
     // TODO: Implement operator< and operator> - compare by price
 
@@ -55,16 +58,12 @@ public:
 
     bool operator==(const Car& other) const;
 
+
+    // TODO: Implement operator!= in one line using operator==
     bool operator!=(const Car& other) const;
 
     friend std::ostream& operator<<(std::ostream& os, const Car& value);
 
 
-    // TODO: Implement operator!= in one line using operator==
-
-    // BONUS: Add static totalCars counter
-    // Initialize to 0, increment in constructor
-    // Add getter method
-    //
 };
 

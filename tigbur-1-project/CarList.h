@@ -37,22 +37,22 @@ public:
     bool remove(const Car carToRemove);
 
 
-    ///** the following methods need to be implemented */
-    //// ***************************************************
-    //// prints the most expansive car
-    //void printMostExpansive() const;
+    /** the following methods need to be implemented */
+    // ***************************************************
+    // prints the most expansive car
+    void printMostExpansive() const;
 
-    //// returns the number of red cars in CarList
-    //int numOfRedCars() const;
+    // returns the number of red cars in CarList
+    int numOfRedCars() const;
 
-    //// returns the number of cars owned by the given owner
-    //int numOfOwnerCars(const std::string owner) const;
+    // returns the number of cars owned by the given owner
+    int numOfOwnerCars(const std::string owner) const;
 
-    //// prints all cars in the list
-    //void print() const;
+    // prints all cars in the list
+    void print() const;
 
-    //// prints all cars that their car module begins with the given char
-    //void printByModule(const char c) const;
-    //// ***************************************************
+    // prints all cars that their car module begins with the given char
+    void printByModule(const char c) const;
+    // ***************************************************
 
 };

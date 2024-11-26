@@ -15,6 +15,7 @@ Color CarColor::getColor() const
 	return this->_color;
 }
 
+
 void CarColor::setColor(const Color& color)
 {
 	this->_color = color;

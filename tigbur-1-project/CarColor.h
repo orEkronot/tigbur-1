@@ -8,7 +8,8 @@ enum Color {
     GREEN = 2,
     PURPLE = 3,
     PINK = 4,
-    WHITE
+    WHITE = 5,
+    BLUE = 6
 };
 
 
@@ -17,14 +18,12 @@ class CarColor {
 private:
     // TODO: Add single private field of type Color
     Color _color;
-
+ 
 public:
 
     // TODO: Implement constructor
-    CarColor(const Color& color);
-
+    CarColor(const Color& color);   
     CarColor();
-
     // TODO: Implement getter for the color
     Color getColor() const;
 

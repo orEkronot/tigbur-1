@@ -25,5 +25,6 @@ public:
     // BONUS: Add static totalCars counter
     // Initialize to 0, increment in constructor
     // Add getter method
+    //
 };
 
